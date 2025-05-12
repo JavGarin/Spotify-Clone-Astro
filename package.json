@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "@astrojs/react": "3.0.9",
-    "@astrojs/svelte": "^7.0.13",
+    "@astrojs/svelte": "5.0.3",
     "@astrojs/tailwind": "5.1.0",
     "@astrojs/vercel": "6.1.2",
     "@radix-ui/react-slider": "1.1.2",
@@ -11,12 +11,11 @@
     "clsx": "2.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "svelte": "^5.28.2",
+    "svelte": "4.2.8",
     "tailwindcss": "3.4.0",
-    "typescript": "^5.8.3",
-    "zustand": "4.4.3"
+    "zustand": "^5.0.4"
   },
-  "name": "spotify-twitch-clone",
+  "name": "spotify-clone-astro",
   "scripts": {
     "astro": "astro",
     "build": "astro build",

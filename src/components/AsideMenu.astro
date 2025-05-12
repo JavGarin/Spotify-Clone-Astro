@@ -13,12 +13,12 @@ import { playlists } from "@/lib/data.ts"
     <ul>
       <SideMenuItem href="/">
         <HomeIcon />
-         Inicio
+        Inicio
       </SideMenuItem>
 
       <SideMenuItem href="/#">
         <SearchIcon />
-         Buscar
+        Buscar
       </SideMenuItem>
     </ul>
   </div>
@@ -27,10 +27,12 @@ import { playlists } from "@/lib/data.ts"
     <ul>
       <SideMenuItem href="/">
         <LibraryIcon />
-         Tu biblioteca
+        Tu biblioteca
       </SideMenuItem>
 
-      {playlists.map((playlist) => <SideMenuCard playlist={playlist} />)}
+      {playlists.map((playlist) => (
+        <SideMenuCard playlist={playlist} />
+      ))}
     </ul>
   </div>
 </nav>
