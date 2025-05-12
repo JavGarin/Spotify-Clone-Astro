@@ -33,7 +33,7 @@ export function PlayerControlButtonBar() {
         <Prev/>
       </button>
       <button className="bg-white text-black rounded-full p-2 hover:scale-110" onClick={onPlayPause}>
-        {isPlaying ? <Pause/> : <Play/>}
+        {isPlaying ? <Pause className="icon-class" /> : <Play className="icon-class" />}
       </button>
       <button className="hover:scale-110" onClick={onNextSong} title="Next song">
         <Next/>

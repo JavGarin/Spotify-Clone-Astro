@@ -6,6 +6,8 @@ dist/
 
 # dependencies
 node_modules/
+# production
+estructura.txt/
 
 # logs
 npm-debug.log*
