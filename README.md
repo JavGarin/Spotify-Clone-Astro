@@ -4,7 +4,7 @@ Este repositorio contiene un clon del popular servicio de música Spotify constr
 
 > 🧑‍🚀 **Otros recursos**
 
-    Bun - React - Svelte - Zustand - Typescript - Bibliotecas.
+    Bun - Astro - React - Svelte - Zustand - Typescript - Bibliotecas.
 
 ## 🚀 Project Structure
 
