@@ -25,5 +25,8 @@
     "start": "astro dev"
   },
   "type": "module",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "devDependencies": {
+    "vite-tsconfig-paths": "^5.1.4"
+  }
 }
