@@ -7,7 +7,7 @@ dist/
 # dependencies
 node_modules/
 # production
-estructura.txt/
+.vscode/
 
 # logs
 npm-debug.log*
