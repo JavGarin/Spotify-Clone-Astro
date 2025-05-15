@@ -1,7 +1,7 @@
 ---
 import { Player } from "@/components/Player"
 import AsideMenu from "../components/AsideMenu.astro"
-import { ViewTransitions } from "astro:transitions"
+import { ClientRouter } from "astro:transitions"
 
 interface Props {
   title: string
@@ -16,10 +16,10 @@ const { title } = Astro.props
     <meta charset="UTF-8" />
     <meta name="description" content="Astro description" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/src/assets/favicon-32x32.png" />
+    <link rel="icon" type="image/svg+xml" href="#" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
-    <ViewTransitions fallback="none" />
+    <ClientRouter fallback="none" />
   </head>
   <body>
     <div id="app" class="relative h-screen p-2 gap-2">
