@@ -30,6 +30,9 @@ Inside of your Astro project, you'll see the following folders and files:
     Funcionalidades de búsqueda, playlists y perfiles de usuario.
     Diseño adaptable a diferentes dispositivos (responsive design).
 
+## 📸 Demo  
+![Interfaz de mi aplicación](https://iili.io/3gm0KAv.md.png)
+
 ## 🚨 Aviso/Warning    
     Este proyecto esta desplegado en Vercel en modo free, al momento de reproducir la musica,
     puede haber detencion de la musica por parte de Vercel, de manera local funciona 100%.
